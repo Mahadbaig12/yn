@@ -1,0 +1,56 @@
+body{
+display: flex;
+justify-content: center;
+position: relative;
+top: 36px;
+}
+.container{
+    margin: 0;
+    max-width: vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+    width: 343px;
+    border: 2px solid rgb(196, 183, 183);
+    border-radius: 20px;
+    text-align: center;
+}
+img{
+    position: relative;
+   right: 105px;
+   top: 55px;
+}
+button{
+    padding: 27px;
+    margin: 1px 4px;
+    border: 2px solid rgb(39, 37, 37);
+    border-radius: 422px;
+    cursor: pointer;
+    background-color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 10px;
+    justify-content: center;
+    background-color: darkslategray;
+    border-radius: 20px;
+}
+.input{
+    /* margin-left: px; */
+    padding: 14px 64px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: darkgray;
+}
+.jersey-25-regular {
+    font-family: "Jersey 25", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+};
+
